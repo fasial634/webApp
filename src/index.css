@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+:root {
+  --space: 10px; 
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  max-width: 480px;
+  height: 100vh; 
+  margin: 0 auto;
+  padding: 0 10px; 
+  margin-top: 10px;
+}
+
+
+.card {
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.card img {
+  display: block;
+  max-width: 70%;
+  min-width: 200px; 
+  height: 100%;
+  margin: 0 auto;
+  /* border: 1px solid black;  */
+}
+
+.header{
+  height: 25vh;
+  margin-bottom: var(--space);
+  
+}
+
+
+.button {
+  display: block;
+  border: 1px solid white; 
+  border-radius: 9999px; 
+  width: 250px;
+  height: 50px; 
+  background-color: #41924B;
+  color: white;
+}
+
+.queue-number .button {
+  margin-bottom: 20px;
+}
+
+input {
+ display: block;
+ width: 40%;
+ height: 70%;
+ font-size: 8rem;
+ text-align: center;
+ margin-bottom: 10px;
+ border: none;
+}
+
+p {
+  font-size: 8rem;
+  text-align: center;
+  font-weight: 550;
+  width: 40%;
+  height: 70%;
+
+}
+
+.queue-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 32vh;
+  margin-bottom: var(--space);
+
+}
+
+
+
+/* Services */
+
+
+.service {
+  height: 30vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: var(--space);
+}
+
+.menu, .promotion{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.promotion button{
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.promotion img {
+  display: block;
+  max-width: 60%;
+  min-width: 20px; 
+  height: 50%;
+}
+
+
+.menu button {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+
+}
+
+.menu img {
+  display: block;
+  max-width: 60%;
+  min-width: 20px; 
+  height: 50%;
+}
+
+
+
+
+
+
+
+
+
